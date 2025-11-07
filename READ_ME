@@ -1,0 +1,12 @@
+*****Mettre en route mon chatbot
+python nom_fichier.py
+
+
+****Voir ma réponse dans le navigateur (avec serveur)
+uvicorn chatbot_api:app --reload
+Ensuite on va sur https..../docs pour visualiser notre API et on peut faire nos tests a ce niveau !!
+
+****Pour ouvrir mon nav coté client (sans serveur)
+python -m http.server 5500
+puis lancer dans le navigateur:
+http://127.0.0.1:5500
